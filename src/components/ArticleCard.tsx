@@ -23,7 +23,7 @@ const ArticleCard = ({ imgSrc, title, publishDate, content, articleLink }: Artic
             <Heading subtitle size={6}>{new Date(publishDate).toLocaleString()}</Heading>
           </Media.Item>
         </Media>
-        <Content>
+        <Content className={"is-hidden-mobile"}>
           {content}
         </Content>
         <Button renderAs={ArticleLinkComponent}>Read More</Button>

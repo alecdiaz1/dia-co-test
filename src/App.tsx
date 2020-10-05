@@ -24,7 +24,7 @@ const ResultsContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 `
