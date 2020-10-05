@@ -1,28 +1,14 @@
-Dia&Co React Starter App
-========================
+## Dia&Co Test
 
-<3 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Instructions:
+1. Navigate to the project directory
+2. Run `yarn start` to start development version.
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Can also do `yarn build` to build production version.
 
-We've created this simple react app to get you started faster by removing some of the cruft and adding Bootstrap 4. 
-
-Nevertheless, you're welcome to use anything you want!
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### How I Would Improve It
+- Break down the components into smaller pieces using [atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
+- Create a theme and custom create all components instead of using Bulma
+- Use i18next to localize strings
+- Localize date and times
+- Nicer error handling (no results, invalid search, etc.)
